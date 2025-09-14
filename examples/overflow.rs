@@ -1,6 +1,6 @@
 #![allow(unused)]
 
-// Overflow doesn't panic when compiled with -release
+// Overflow doesn't panic when compiled with --release
 fn main() {
     let mut x = u32::MAX;
     x += 1;
