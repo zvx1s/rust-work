@@ -1,7 +1,7 @@
 #![allow(unused)]
 
 // Array - collection of elements with length known at compile time
-// Slice - collection of elements with length not known at compile time
+// Slice - collection of elements with length unknown at compile time
 
 pub fn zeros() -> [u32; 100] {
     [0; 100]
